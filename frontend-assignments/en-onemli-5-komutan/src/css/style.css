@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+*{
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+#logo{
+    width:150px;
+}
+article h2{
+    color: crimson;
+    text-align: center;
+}
+
+.a{
+    width: 240px;
+    border:1px solid #ccc ;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#sezar{
+   
+}
+.content{
+    border-style: none;
+    text-align: center;
+}
+p{
+    font-family: 'Hina Mincho', serif;
+    font-size: large;
+}
+ul li{
+    display: inline;
+}

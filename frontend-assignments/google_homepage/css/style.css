@@ -5,14 +5,16 @@
     margin-right: 16px;
     font-family: arial,sans-serif;
     font-size: 13px;
+    display: block;
   }
   
   .headerli a {
     display: block;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 5px 5px;
     text-decoration: none;
+    float: right;
   }
   
   .headerli a:hover {
@@ -28,6 +30,7 @@
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
+    border-radius: 25px;
     box-shadow: none;
     z-index: 3;
     height: 44px;
@@ -69,6 +72,7 @@
     display: flex;
     flex: 1;
     flex-wrap: wrap;
+    
   }
   
   .input-area {
@@ -79,6 +83,7 @@
     line-height: 34px;
     height: 34px !important;
     display: block;
+  
   }
   
   .input {
@@ -102,8 +107,36 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
+    width: 480px;
+    border: none;
+  }
+  .voice-area{
+    display: flex;
+    flex: 1 0 auto;
+  }
+  .voice{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 32px;
+    line-height: 44px;
   }
   
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-right: 16px;
+    
+  }
+  .googlesearch:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+
+  }
+
   .googlesearch {
     margin: 11px 4px;
     padding: 0 16px;
@@ -112,8 +145,16 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border: 1px #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: #5f6368;
+    font-size: 14px;
   }
   
+  .feelinglucky:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+
+  }
   .feelinglucky {
     padding: 0 16px;
     line-height: 27px;
@@ -121,6 +162,10 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border: 1px #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: #5f6368;
+    font-size: 14px;
   }
   
   .footer {
@@ -134,10 +179,12 @@
     width: 100%;
     margin-left: -8px;
     line-height: 10px;
+    background-color: #f2f2f2;
   }
   
   .footerli {
     float: left;
+    list-style-type: none;
   }
   
   .footerli a {

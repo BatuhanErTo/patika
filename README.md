@@ -9,6 +9,6 @@ Patika is a repo for assignments given by patika.dev
 -patika-alistirma
 
 ## License
-[MIT](https://choosealicense.com/licenses/ mit)
+[MIT](https://choosealicense.com/licenses/ mit/)
  
 

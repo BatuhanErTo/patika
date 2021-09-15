@@ -1,6 +1,6 @@
 # Patika
 ## Info
-    Patika is a repo for assignments given by patika.dev
+Patika is a repo for assignments given by patika.dev
 ## Projects
     -en-onemli-5-komutan
     -google-clone

@@ -1,6 +1,6 @@
 # Patika
 ## Info
-Patika is a repo for assignments given by patika.dev
+* This repo is created to learn basic HTML and CSS which are the path of going my Frontend learning aim. Unfotunately I've stopped learning of this area because of my other interest and college assignments. But at soon I am going to keep up this process with learning Bootstrap,JavaScript and React.
 ## Projects
 -en-onemli-5-komutan
 -google-clone
@@ -8,7 +8,6 @@ Patika is a repo for assignments given by patika.dev
 -muzik-dukkanim
 -patika-alistirma
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
  
 
